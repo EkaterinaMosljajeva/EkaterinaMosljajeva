@@ -1,0 +1,12 @@
+/*kommentaar*/
+header{
+    color: indigo;
+    background-color: lavenderblush;
+    width: 50%;
+}
+header h1{
+    font-family: Algerian;
+    font-size: larger;
+    letter-spacing: 0.5cm;
+    border-bottom: solid 1pt mediumvioletred; /*dotted dashed double*/
+}
