@@ -10,3 +10,71 @@ header h1{
     letter-spacing: 0.5cm;
     border-bottom: solid 1pt mediumvioletred; /*dotted dashed double*/
 }
+li{
+    float:left;
+}
+li a{
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: purple;
+    padding: 10px 20px;
+    border-right: solid 1px mediumvioletred;
+    font-variant: small-caps;
+}
+ul{
+    list-style-type: none;
+    margin: 0; /*Внешний отступ от элементов*/
+    padding: 0; /*Пространство вокруг букв*/
+    overflow: hidden;
+    background-color: lightblue;
+    width: 20%;
+}
+li a:hover{
+    background-color: lightseagreen;
+    color: indigo;
+    text-decoration: underline;
+}
+/*Обращение к конкретному классу*/
+.nimekiri{
+    list-style-type: "◌";
+    margin: 0; /*Внешний отступ от элементов*/
+    padding: 20px; /*Пространство вокруг букв*/
+    background-color: white;
+}
+img#pilt1{
+    width: 10%;
+}
+img#pilt2{
+    width: 20%;
+    border: dotted 5pt yellow;
+}
+img#pilt3{
+    width: 30%;
+    border: solid 7pt darkslateblue;
+    border-radius: 240%;
+}
+section#section1{
+    background-color: lavenderblush;
+    color: maroon;
+    width: 10%;
+    font-family: fantasy;
+    text-shadow: 2px 2px 5px hotpink;
+}
+
+section#section2{
+    background-color: lightgray;
+    border: double 2px olivedrab;
+    color: darkslategray;
+    width: 60%;
+}
+
+section#section3{
+    background-color: aliceblue;
+    color: midnightblue;
+    font-family: "Goudy Old Style";
+    text-transform: capitalize;
+    border: dashed 3pt blue;
+    width: 50%;
+    border-radius: 10%;
+}
